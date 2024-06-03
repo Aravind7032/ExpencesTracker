@@ -1,0 +1,115 @@
+body{
+    background:radial-gradient(rgba(128, 0, 128, 0.608),rgba(0, 0, 255, 0.63));
+}
+.container2
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    padding-bottom: 30px;
+    width: 550px;
+    border: 1px solid rgba(0, 0, 0, 0.202);
+    height: 550px;
+   margin-top: 50px;
+    border-radius: 10px;
+
+}
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgba(128, 0, 128, 0.829);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+.inputs
+{
+    margin-top:55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+}
+.input{
+display: flex;
+align-items: center;
+margin: auto;
+width: 400px;
+height: 50px;
+background-color:rgba(211, 211, 211, 0.475);
+border-radius:8px;
+
+}
+
+.input input
+{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forgot
+{
+    padding-left: 62px;
+    margin-top: 25px;
+    color: #797979;
+    font-size: 18px;
+}
+.forgot span{
+    color:rgba(128, 0, 128, 0.829);
+    cursor: pointer;
+    font-weight:700;
+}
+
+.submit
+{
+    display: flex;
+    gap: 30px;
+    margin: 60px ;
+}
+.sub
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 59px;
+    color: #fff;
+    background-color:rgba(128, 0, 128, 0.829) ;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.change
+{
+    background-color:cadetblue;
+    color: #0f0e0e;
+}
+.input ::placeholder{
+   padding-left: 30px;
+   width: 100px;
+}
+form{
+   
+}
+#root{
+    height: 500px;
+}

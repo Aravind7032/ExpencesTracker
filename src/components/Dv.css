@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    gap: 550px;
+    background-color: cadetblue;
+}
+.menu{
+    margin-top: 19px;
+    width: 50px;
+    height: 50px;
+}
+.manage{
+    margin-top: 19px;
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: 500;
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    align-content: center;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
